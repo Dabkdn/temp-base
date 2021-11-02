@@ -1,0 +1,1 @@
+export const IMAGE_FILE_MIMES = ['image/png', 'image/jpeg', 'image/gif'];
