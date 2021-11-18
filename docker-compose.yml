@@ -9,8 +9,3 @@ services:
             MONGO_INITDB_DATABASE: ${DATABASE_NAME}
         ports:
             - '${DATABASE_PORT}:27017'
-    redis:
-        image: redis:3.0
-        container_name: sol_redis
-        ports:
-            - '${REDIS_PORT}:6379'
