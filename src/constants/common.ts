@@ -11,3 +11,8 @@ export const responseSuccess: IResponseCommon = {
     error: '',
     message: 'Your action is successful',
 };
+
+export const MODEL_NAMES = {
+    USER: 'users',
+    ROLE: 'roles',
+};

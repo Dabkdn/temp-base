@@ -35,3 +35,8 @@ export const connectDatabase = async () => {
     console.log(databaseConnection);
     await mongoose.connect(databaseConnection);
 };
+
+export const jwtConfig = {
+    jwtAdminSecret: 'aU7h3GiHb2o8H!q!ndwSqYqh&K$LCeyI',
+    ttlSec: 2592000, // 1 month
+};
